@@ -1,0 +1,22 @@
+VER 3 0100000000000003 "heal" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,harm] 惩击; [@mouseover,help] [help]快速治疗;[harm]惩击;快速治疗
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P1MR1HM1HR1WT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N今天我麻辣牛狗大姨小艾琳[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]白不白[x]一只小[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000006 "痛" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover] 暗言术：痛
+END
+VER 3 0100000000000004 "真言术：静" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,harm] 神圣之火; [@mouseover,help] [help]治疗术;[harm]神圣之火;治疗术
+END
+VER 3 0100000000000005 "真言猛" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,harm] 圣言术：罚; [@mouseover,help] [help]圣言术：静;[harm]圣言术：罚;圣言术：静
+END

@@ -1,0 +1,14 @@
+VER 3 0100000000000004 "MMA-DPS-AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] MMA-DPS-AOE RightButton; [button:3] MMA-DPS-AOE MiddleButton; [button:4] MMA-DPS-AOE Button4; [button:5] MMA-DPS-AOE Button5; MMA-DPS-AOE
+END
+VER 3 0100000000000003 "MMA-DPS-NOCD" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] MMA-DPS-NOCD RightButton; [button:3] MMA-DPS-NOCD MiddleButton; [button:4] MMA-DPS-NOCD Button4; [button:5] MMA-DPS-NOCD Button5; MMA-DPS-NOCD
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1EM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]狂奔的[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

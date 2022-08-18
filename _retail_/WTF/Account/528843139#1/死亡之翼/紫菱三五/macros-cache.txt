@@ -1,0 +1,17 @@
+VER 3 0100000000000004 "die" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/施放 假死
+/施放 装死
+/petfollow
+END
+VER 3 0100000000000003 "misdirect" "INV_MISC_QUESTIONMARK"
+/click AutoTankMisdirect
+/cast [@focus,help,nodead] 误导
+/cast 猎人印记
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]紫菱三[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]风蛇
+END

@@ -1,0 +1,22 @@
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]朵朵白[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000005 "回春" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,harm] 蛮力猛击; [@mouseover,help] [help]回春术;[harm]蛮力猛击;回春术
+END
+VER 3 0100000000000004 "愈合" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,harm] 愤怒; [@mouseover,help] [help]愈合;[harm]愤怒;愈合
+END
+VER 3 0100000000000003 "生命绽放" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,harm] 月火术; [@mouseover,help] [help]生命绽放;[harm]月火术;生命绽放
+END
+VER 3 0100000000000006 "野性生长" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm] 野性成长; [@mouseover,help] [help]野性成长;[harm]野性成长;野性成长
+END
