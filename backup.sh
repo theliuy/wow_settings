@@ -15,18 +15,18 @@ fi
 
 cur_dir="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 wow_retail_path='/Applications/World of Warcraft/_retail_'
-retail_dirs=(Fonts WTF Interface)
+retail_dirs=( Fonts WTF Interface )
 
 mkdir -p _retail_
-for d in retail_dirs
+for d in "${retail_dirs[@]}"
 do 
-    target_path=${cur_dir}/_retail_/${d}
-    rm -rf ${target_path}
-    cp -R ${wow_retail_path}}/${d} ${target_path}
+    rm -rf ${cur_dir}/_retail_/${d}
+    cp -R "${wow_retail_path}/${d}" ${cur_dir}/_retail_
 done
 
 # remove WTF backups
-for suffix in (.bak .old)
+legacy_suffix=( .bak .old )
+for suffix in "${legacy_suffix[@]}"
 do
-    find ${cur_dir}/_retail_/WTF -type f -name "*.${suffix}" | xargs rm -v
+    find ${cur_dir}/_retail_/WTF -type f -name "*${suffix}" | xargs rm -v
 done
