@@ -20,6 +20,7 @@ local UnitFactionGroup = UnitFactionGroup
 local DisableAddOn = DisableAddOn
 local IsInGroup = IsInGroup
 local IsInGuild = IsInGuild
+local IsSpellKnown = IsSpellKnown
 local IsInRaid = IsInRaid
 local ReloadUI = ReloadUI
 local UnitGUID = UnitGUID
@@ -27,7 +28,7 @@ local GetBindingKey = GetBindingKey
 local SetBinding = SetBinding
 local SaveBindings = SaveBindings
 local GetCurrentBindingSet = GetCurrentBindingSet
-local GetSpecialization = not E.Retail and LCS.GetSpecialization or GetSpecialization
+local GetSpecialization = (E.Classic or E.TBC or E.Wrath and LCS.GetSpecialization) or GetSpecialization
 
 local ERR_NOT_IN_COMBAT = ERR_NOT_IN_COMBAT
 local LE_PARTY_CATEGORY_HOME = LE_PARTY_CATEGORY_HOME
@@ -64,8 +65,7 @@ E.myLocalizedRace, E.myrace = UnitRace('player')
 E.myname = UnitName('player')
 E.myrealm = GetRealmName()
 E.mynameRealm = format('%s - %s', E.myname, E.myrealm) -- contains spaces/dashes in realm (for profile keys)
-E.myspec = GetSpecialization()
-E.wowpatch, E.wowbuild, E.wowdate, E.wowtoc = GetBuildInfo()
+E.myspec = E.Retail and GetSpecialization()
 E.wowbuild = tonumber(E.wowbuild)
 E.physicalWidth, E.physicalHeight = GetPhysicalScreenSize()
 E.screenWidth, E.screenHeight = GetScreenWidth(), GetScreenHeight()
@@ -130,6 +130,8 @@ E.DispelClasses = {
 
 if E.Retail then
 	E.DispelClasses.SHAMAN.Curse = true
+elseif E.Wrath then
+	E.DispelClasses.SHAMAN.Curse = IsSpellKnown(51886)
 else
 	E.DispelClasses.SHAMAN.Poison = true
 	E.DispelClasses.SHAMAN.Disease = true
@@ -1335,6 +1337,14 @@ function E:DBConvertSL()
 			E.global.unitframe.aurafilters[name].type = infoTable.type
 		end
 	end
+
+	-- rune convert
+	for _, data in ipairs({E.db.unitframe.colors.classResources.DEATHKNIGHT, E.db.nameplates.colors.classResources.DEATHKNIGHT}) do
+		if data.r or data.g or data.b then
+			data[0].r, data[0].g, data[0].b = data.r, data.g, data.b
+			data.r, data.g, data.b = nil, nil, nil
+		end
+	end
 end
 
 function E:UpdateDB()
@@ -1405,6 +1415,10 @@ function E:UpdateActionBars(skipCallback)
 
 	if E.Retail then
 		ActionBars:UpdateExtraButtons()
+	end
+
+	if E.Wrath and E.myclass == 'SHAMAN' then
+		ActionBars:UpdateTotemBindings()
 	end
 
 	if not skipCallback then
@@ -1484,6 +1498,8 @@ function E:UpdateMisc(skipCallback)
 	if E.Retail then
 		Blizzard:SetObjectiveFrameHeight()
 		Totems:PositionAndSize()
+	elseif E.Wrath then
+		ActionBars:PositionAndSizeTotemBar()
 	elseif E.TBC then
 		Totems:PositionAndSize()
 	end
@@ -1908,8 +1924,11 @@ function E:Initialize()
 	E:Contruct_StaticPopups()
 
 	if E.Retail then
-		E.Libs.DualSpec:EnhanceDatabase(E.data, 'ElvUI')
 		E:Tutorials()
+	end
+
+	if E.Retail or E.Wrath then
+		E.Libs.DualSpec:EnhanceDatabase(E.data, 'ElvUI')
 	end
 
 	E.initialized = true

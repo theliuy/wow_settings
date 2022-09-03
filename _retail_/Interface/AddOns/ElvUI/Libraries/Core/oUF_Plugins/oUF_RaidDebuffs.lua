@@ -97,6 +97,8 @@ local DispelList = {
 
 if oUF.isRetail then
 	DispelList.SHAMAN.Curse = true
+elseif oUF.isWrath then
+	DispelList.SHAMAN.Curse = IsSpellKnown(51886)
 else
 	DispelList.SHAMAN.Poison = true
 	DispelList.SHAMAN.Disease = true
@@ -145,7 +147,7 @@ local function CheckDispel(_, event, arg1)
 		end
 	elseif event == 'CHARACTER_POINTS_CHANGED' and arg1 > 0 then
 		return -- Not interested in gained points from leveling
-	else
+	elseif oUF.isRetail then
 		if playerClass == 'PALADIN' then
 			DispelFilter.Magic = CheckTalentTree(1)
 		elseif playerClass == 'SHAMAN' then
@@ -155,6 +157,8 @@ local function CheckDispel(_, event, arg1)
 		elseif playerClass == 'MONK' then
 			DispelFilter.Magic = CheckTalentTree(2)
 		end
+	elseif playerClass == 'SHAMAN' then
+		DispelFilter.Curse = CheckTalentTree(3) -- TODO: Maybe instead check specifically for Cleanse Spirit instead?
 	end
 end
 

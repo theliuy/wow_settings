@@ -2,13 +2,13 @@
 DataStore_GarrisonsDB = {
 	["profileKeys"] = {
 		["紫菱三五 - 死亡之翼"] = "紫菱三五 - 死亡之翼",
-		["Aeules - 死亡之翼"] = "Aeules - 死亡之翼",
+		["不刷牙 - 死亡之翼"] = "不刷牙 - 死亡之翼",
 		["白不白胖不胖 - 死亡之翼"] = "白不白胖不胖 - 死亡之翼",
-		["葡萄窜窜 - 死亡之翼"] = "葡萄窜窜 - 死亡之翼",
+		["Aeules - 死亡之翼"] = "Aeules - 死亡之翼",
 		["雨三五 - 死亡之翼"] = "雨三五 - 死亡之翼",
 		["狂奔的葡萄 - 死亡之翼"] = "狂奔的葡萄 - 死亡之翼",
 		["朵朵白云飘 - 死亡之翼"] = "朵朵白云飘 - 死亡之翼",
-		["不刷牙 - 死亡之翼"] = "不刷牙 - 死亡之翼",
+		["葡萄窜窜 - 死亡之翼"] = "葡萄窜窜 - 死亡之翼",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -70,26 +70,26 @@ DataStore_GarrisonsDB = {
 				},
 				["Followers"] = {
 					[34] = {
-						["link"] = "|cff0070dd|Hgarrfollower:34:3:30:600:100:0:0:0:59:44:0:0:0|h[欧林·棕皮]|h|r",
+						["levelXP"] = 400,
 						["xp"] = 100,
-						["levelXP"] = 400,
-					},
-					[153] = {
-						["link"] = "|cff1eff00|Hgarrfollower:153:2:30:600:159:0:0:0:60:0:0:0:0|h[卡拉]|h|r",
-						["xp"] = 0,
-						["levelXP"] = 400,
+						["link"] = "|cff0070dd|Hgarrfollower:34:3:30:600:100:0:0:0:59:44:0:0:0|h[欧林·棕皮]|h|r",
 					},
 					[192] = {
-						["link"] = "|cff1eff00|Hgarrfollower:192:2:37:600:160:0:0:0:57:0:0:0:0|h[基姆兹·宾奇维斯]|h|r",
-						["xp"] = 100,
 						["levelXP"] = 4000,
+						["xp"] = 100,
+						["link"] = "|cff1eff00|Hgarrfollower:192:2:37:600:160:0:0:0:57:0:0:0:0|h[基姆兹·宾奇维斯]|h|r",
+					},
+					[153] = {
+						["levelXP"] = 400,
+						["xp"] = 0,
+						["link"] = "|cff1eff00|Hgarrfollower:153:2:30:600:159:0:0:0:60:0:0:0:0|h[卡拉]|h|r",
 					},
 				},
 				["Traits"] = {
-					[57] = 1,
-					[60] = 1,
-					[44] = 1,
 					[59] = 1,
+					[57] = 1,
+					[44] = 1,
+					[60] = 1,
 				},
 				["AvailableWarCampaignMissions"] = {
 					1930, -- [1]
@@ -166,7 +166,7 @@ DataStore_GarrisonsDB = {
 					2, -- [3]
 					3, -- [4]
 				},
-				["lastUpdate"] = 1660793058,
+				["lastUpdate"] = 1661876324,
 				["currentCypherEquipmentLevel"] = 2,
 				["MissionsInfo"] = {
 					[2175] = {
@@ -193,11 +193,11 @@ DataStore_GarrisonsDB = {
 					[2180] = 1659203487,
 				},
 				["AvailableCovenantMissions"] = {
-					2171, -- [1]
-					2169, -- [2]
-					2177, -- [3]
-					2180, -- [4]
-					2245, -- [5]
+					2211, -- [1]
+					2180, -- [2]
+					2171, -- [3]
+					2169, -- [4]
+					2262, -- [5]
 				},
 				["maxCypherEquipmentLevel"] = 6,
 				["ReservoirTalents"] = {
@@ -226,7 +226,7 @@ DataStore_GarrisonsDB = {
 					3, -- [3]
 					8, -- [4]
 				},
-				["lastUpdate"] = 1660792886,
+				["lastUpdate"] = 1662002928,
 				["currentCypherEquipmentLevel"] = 4,
 				["MissionsInfo"] = {
 					[2180] = {
@@ -243,12 +243,12 @@ DataStore_GarrisonsDB = {
 					[2180] = 1656785621,
 				},
 				["AvailableCovenantMissions"] = {
-					2169, -- [1]
-					2171, -- [2]
-					2177, -- [3]
-					2309, -- [4]
-					2261, -- [5]
-					2211, -- [6]
+					2171, -- [1]
+					2176, -- [2]
+					2262, -- [3]
+					2180, -- [4]
+					2211, -- [5]
+					2309, -- [6]
 				},
 				["maxCypherEquipmentLevel"] = 6,
 				["ReservoirTalents"] = {
@@ -271,62 +271,15 @@ DataStore_GarrisonsDB = {
 				},
 			},
 			["Default.死亡之翼.不刷牙"] = {
-				["lastUpdate"] = 1657990788,
-				["ReservoirTalents"] = {
-					{
-						["treeID"] = 312,
-						["tier"] = 1,
-					}, -- [1]
-					{
-						["treeID"] = 308,
-						["tier"] = 2,
-					}, -- [2]
-					{
-						["treeID"] = 316,
-						["tier"] = 1,
-					}, -- [3]
-					[5] = {
-						["treeID"] = 320,
-						["tier"] = 1,
-					},
+				["CypherConsoleTalents"] = {
+					5, -- [1]
+					8, -- [2]
+					7, -- [3]
+					8, -- [4]
 				},
-				["MissionsInfo"] = {
-					[2245] = {
-						["successChance"] = 0,
-						["followers"] = {
-							1258, -- [1]
-							1272, -- [2]
-							1273, -- [3]
-							1275, -- [4]
-							1342, -- [5]
-						},
-					},
-					[2170] = {
-						["successChance"] = 0,
-						["followers"] = {
-							1260, -- [1]
-							1276, -- [2]
-							1274, -- [3]
-							1341, -- [4]
-							1343, -- [5]
-						},
-					},
-				},
-				["AvailableWarCampaignMissions"] = {
-					1922, -- [1]
-					1923, -- [2]
-					1879, -- [3]
-					1955, -- [4]
-					1948, -- [5]
-				},
-				["MissionsStartTimes"] = {
-					[2170] = 1653149206,
-					[2245] = 1653149222,
-				},
-				["ActiveCovenantMissions"] = {
-					2170, -- [1]
-					2245, -- [2]
-				},
+				["lastUpdate"] = 1662220846,
+				["currentCypherEquipmentLevel"] = 4,
+				["maxCypherEquipmentLevel"] = 6,
 			},
 			["Default.死亡之翼.葡萄窜窜"] = {
 				["ActiveCovenantMissions"] = {
@@ -336,6 +289,16 @@ DataStore_GarrisonsDB = {
 				},
 				["lastUpdate"] = 1654274730,
 				["MissionsInfo"] = {
+					[2168] = {
+						["successChance"] = 0,
+						["followers"] = {
+							1259, -- [1]
+							1276, -- [2]
+							1320, -- [3]
+							1319, -- [4]
+							1320, -- [5]
+						},
+					},
 					[2228] = {
 						["successChance"] = 0,
 						["followers"] = {
@@ -354,16 +317,6 @@ DataStore_GarrisonsDB = {
 							1275, -- [3]
 							1274, -- [4]
 							1341, -- [5]
-						},
-					},
-					[2168] = {
-						["successChance"] = 0,
-						["followers"] = {
-							1259, -- [1]
-							1276, -- [2]
-							1320, -- [3]
-							1319, -- [4]
-							1320, -- [5]
 						},
 					},
 				},
@@ -390,61 +343,61 @@ DataStore_GarrisonsDB = {
 				["lastUpdate"] = 1659379864,
 				["Followers"] = {
 					[640] = {
-						["levelXP"] = 1500,
+						["isInactive"] = true,
 						["link"] = "|cffffffff|Hgarrfollower:640:1:40:760:468:0:0:0:0:0:0:0:356|h[岑塔布拉]|h|r",
 						["xp"] = 288,
-						["isInactive"] = true,
+						["levelXP"] = 1500,
 					},
 					[642] = {
-						["levelXP"] = 1750,
-						["xp"] = 474,
 						["link"] = "|cffffffff|Hgarrfollower:642:1:41:760:468:0:0:0:0:0:0:0:357|h[赛兰德拉·林歌]|h|r",
+						["xp"] = 474,
+						["levelXP"] = 1750,
 					},
 					[644] = {
-						["levelXP"] = 8000,
-						["xp"] = 6324,
 						["link"] = "|cffffffff|Hgarrfollower:644:1:45:760:470:0:0:0:0:0:0:0:355|h[米露恩]|h|r",
+						["xp"] = 6324,
+						["levelXP"] = 8000,
 					},
 					[826] = {
-						["levelXP"] = 200,
-						["xp"] = 0,
 						["link"] = "|cffffffff|Hgarrfollower:826:1:35:700:555:0:0:0:0:0:0:0:0|h[梦境林地树人]|h|r",
+						["xp"] = 0,
+						["levelXP"] = 200,
 					},
 					[828] = {
-						["levelXP"] = 200,
-						["xp"] = 0,
 						["link"] = "|cffffffff|Hgarrfollower:828:1:35:700:555:0:0:0:0:0:0:0:0|h[梦境林地树人]|h|r",
+						["xp"] = 0,
+						["levelXP"] = 200,
 					},
 					[639] = {
-						["levelXP"] = 1000,
-						["xp"] = 704,
 						["link"] = "|cffffffff|Hgarrfollower:639:1:39:760:469:0:0:0:0:0:0:0:355|h[纳拉雷克斯]|h|r",
+						["xp"] = 704,
+						["levelXP"] = 1000,
 					},
 					[641] = {
-						["levelXP"] = 1750,
+						["isInactive"] = true,
 						["link"] = "|cffffffff|Hgarrfollower:641:1:41:760:470:0:0:0:0:0:0:0:356|h[布罗尔·熊皮]|h|r",
 						["xp"] = 208,
-						["isInactive"] = true,
+						["levelXP"] = 1750,
 					},
 					[643] = {
-						["levelXP"] = 8000,
-						["xp"] = 4200,
 						["link"] = "|cffffffff|Hgarrfollower:643:1:45:760:469:0:0:0:0:0:0:0:356|h[大德鲁伊哈缪尔·符文图腾]|h|r",
+						["xp"] = 4200,
+						["levelXP"] = 8000,
 					},
 					[645] = {
-						["levelXP"] = 8000,
-						["xp"] = 6486,
 						["link"] = "|cffffffff|Hgarrfollower:645:1:45:760:469:0:0:0:0:0:0:0:357|h[光明之翼]|h|r",
-					},
-					[834] = {
-						["levelXP"] = 200,
-						["xp"] = 0,
-						["link"] = "|cffffffff|Hgarrfollower:834:1:35:700:557:0:0:0:0:0:0:0:0|h[利爪德鲁伊]|h|r",
+						["xp"] = 6486,
+						["levelXP"] = 8000,
 					},
 					[646] = {
-						["levelXP"] = 8000,
-						["xp"] = 0,
 						["link"] = "|cffffffff|Hgarrfollower:646:1:45:760:468:0:0:0:0:0:0:0:355|h[守护者雷姆洛斯]|h|r",
+						["xp"] = 0,
+						["levelXP"] = 8000,
+					},
+					[834] = {
+						["link"] = "|cffffffff|Hgarrfollower:834:1:35:700:557:0:0:0:0:0:0:0:0|h[利爪德鲁伊]|h|r",
+						["xp"] = 0,
+						["levelXP"] = 200,
 					},
 				},
 				["MissionsInfo"] = {
@@ -476,19 +429,25 @@ DataStore_GarrisonsDB = {
 			["Default.死亡之翼.白不白胖不胖"] = {
 				["numRareFollowers"] = 4,
 				["currentCypherEquipmentLevel"] = 2,
+				["ActiveMissions"] = {
+					373, -- [1]
+					374, -- [2]
+					191, -- [3]
+				},
 				["AvailableMissions"] = {
-					154, -- [1]
-					159, -- [2]
-					371, -- [3]
-					180, -- [4]
-					178, -- [5]
-					172, -- [6]
-					162, -- [7]
-					224, -- [8]
-					232, -- [9]
-					150, -- [10]
-					155, -- [11]
-					151, -- [12]
+					174, -- [1]
+					186, -- [2]
+					156, -- [3]
+					163, -- [4]
+					244, -- [5]
+					232, -- [6]
+					154, -- [7]
+					150, -- [8]
+					155, -- [9]
+					151, -- [10]
+					202, -- [11]
+					376, -- [12]
+					372, -- [13]
 				},
 				["MissionsInfo"] = {
 					[374] = {
@@ -525,17 +484,24 @@ DataStore_GarrisonsDB = {
 					},
 				},
 				["AvailableCovenantMissions"] = {
-					2180, -- [1]
-					2308, -- [2]
+					2168, -- [1]
+					2169, -- [2]
+					2262, -- [3]
+					2261, -- [4]
+					2211, -- [5]
+					2308, -- [6]
 				},
 				["numEpicFollowers"] = 1,
+				["ActiveCovenantMissions"] = {
+					2171, -- [1]
+				},
 				["CypherConsoleTalents"] = {
 					2, -- [1]
 					4, -- [2]
 					1, -- [3]
 					2, -- [4]
 				},
-				["lastUpdate"] = 1660793194,
+				["lastUpdate"] = 1662004394,
 				["AbilityCounters"] = {
 					1, -- [1]
 					1, -- [2]
@@ -547,45 +513,45 @@ DataStore_GarrisonsDB = {
 					[9] = 1,
 				},
 				["Followers"] = {
-					[34] = {
-						["link"] = "|cff0070dd|Hgarrfollower:34:3:35:600:100:0:0:0:59:41:0:0:0|h[欧林·棕皮]|h|r",
-						["xp"] = 200,
-						["levelXP"] = 3000,
-					},
-					[185] = {
-						["link"] = "|cff1eff00|Hgarrfollower:185:2:33:600:156:0:0:0:38:0:0:0:0|h[洛卡拉]|h|r",
-						["xp"] = 618,
-						["levelXP"] = 1600,
-					},
-					[463] = {
-						["link"] = "|cffa335ee|Hgarrfollower:463:4:34:600:148:11:0:0:7:72:46:0:0|h[乌娜·斯莱舍]|h|r",
-						["xp"] = 1167,
-						["levelXP"] = 2000,
-					},
-					[159] = {
-						["link"] = "|cff0070dd|Hgarrfollower:159:3:35:600:157:0:0:0:36:39:0:0:0|h[尖啸者卡兹]|h|r",
-						["xp"] = 400,
-						["levelXP"] = 3000,
-					},
-					[153] = {
-						["link"] = "|cff0070dd|Hgarrfollower:153:3:35:600:159:0:0:0:60:36:0:0:0|h[卡拉]|h|r",
-						["xp"] = 150,
-						["levelXP"] = 3000,
-					},
-					[216] = {
-						["link"] = "|cff0070dd|Hgarrfollower:216:3:34:600:5:0:0:0:231:8:0:0:0|h[薇薇安]|h|r",
-						["xp"] = 1200,
-						["levelXP"] = 2000,
+					[208] = {
+						["levelXP"] = 3500,
+						["xp"] = 1550,
+						["link"] = "|cff1eff00|Hgarrfollower:208:2:36:600:102:0:0:0:56:0:0:0:0|h[阿姆]|h|r",
 					},
 					[192] = {
-						["link"] = "|cff1eff00|Hgarrfollower:192:2:38:600:160:0:0:0:57:0:0:0:0|h[基姆兹·宾奇维斯]|h|r",
-						["xp"] = 1150,
 						["levelXP"] = 5400,
+						["xp"] = 1150,
+						["link"] = "|cff1eff00|Hgarrfollower:192:2:38:600:160:0:0:0:57:0:0:0:0|h[基姆兹·宾奇维斯]|h|r",
 					},
-					[208] = {
-						["link"] = "|cff1eff00|Hgarrfollower:208:2:36:600:102:0:0:0:56:0:0:0:0|h[阿姆]|h|r",
-						["xp"] = 1550,
-						["levelXP"] = 3500,
+					[216] = {
+						["levelXP"] = 2000,
+						["xp"] = 1200,
+						["link"] = "|cff0070dd|Hgarrfollower:216:3:34:600:5:0:0:0:231:8:0:0:0|h[薇薇安]|h|r",
+					},
+					[159] = {
+						["levelXP"] = 3000,
+						["xp"] = 400,
+						["link"] = "|cff0070dd|Hgarrfollower:159:3:35:600:157:0:0:0:36:39:0:0:0|h[尖啸者卡兹]|h|r",
+					},
+					[153] = {
+						["levelXP"] = 3000,
+						["xp"] = 150,
+						["link"] = "|cff0070dd|Hgarrfollower:153:3:35:600:159:0:0:0:60:36:0:0:0|h[卡拉]|h|r",
+					},
+					[34] = {
+						["levelXP"] = 3000,
+						["xp"] = 200,
+						["link"] = "|cff0070dd|Hgarrfollower:34:3:35:600:100:0:0:0:59:41:0:0:0|h[欧林·棕皮]|h|r",
+					},
+					[185] = {
+						["levelXP"] = 1600,
+						["xp"] = 618,
+						["link"] = "|cff1eff00|Hgarrfollower:185:2:33:600:156:0:0:0:38:0:0:0:0|h[洛卡拉]|h|r",
+					},
+					[463] = {
+						["levelXP"] = 2000,
+						["xp"] = 1167,
+						["link"] = "|cffa335ee|Hgarrfollower:463:4:34:600:148:11:0:0:7:72:46:0:0|h[乌娜·斯莱舍]|h|r",
 					},
 				},
 				["Traits"] = {
@@ -595,13 +561,13 @@ DataStore_GarrisonsDB = {
 					[41] = 1,
 					[231] = 1,
 					[60] = 1,
-					[56] = 1,
+					[8] = 1,
 					[36] = 2,
 					[72] = 1,
 					[38] = 1,
 					[57] = 1,
 					[59] = 1,
-					[8] = 1,
+					[56] = 1,
 				},
 				["ReservoirTalents"] = {
 					{
@@ -638,6 +604,809 @@ DataStore_GarrisonsDB = {
 		},
 		["Reference"] = {
 			["MissionInfos"] = {
+				[1920] = {
+					["durationSeconds"] = 14400,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 20,
+					["iLevel"] = 800,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["rewards"] = {
+						{
+							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+							["quantity"] = 1086400,
+							["title"] = "金钱奖励",
+							["currencyID"] = 0,
+						}, -- [1]
+					},
+				},
+				[373] = {
+					["durationSeconds"] = 36000,
+					["type"] = "战斗",
+					["cost"] = 20,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 1200,
+							["tooltip"] = "+1,200经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+1,200经验值",
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 35,
+				},
+				[1921] = {
+					["durationSeconds"] = 14400,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 20,
+					["level"] = 50,
+					["rewards"] = {
+						{
+							["title"] = "金钱奖励",
+							["quantity"] = 1505300,
+							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+							["currencyID"] = 0,
+						}, -- [1]
+					},
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["iLevel"] = 800,
+				},
+				[2176] = {
+					["durationSeconds"] = 27000,
+					["type"] = "9.0 Encounter - Ardenweald",
+					["cost"] = 30,
+					["iLevel"] = 800,
+					["level"] = 60,
+					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 181185,
+							["itemLink"] = "|cffa335ee|Hitem:181185::::::::60:269::25:3:1472:5904:6646::::::|h[猎魂者的马裤]|h|r",
+						}, -- [1]
+					},
+				},
+				[1922] = {
+					["durationSeconds"] = 14400,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 20,
+					["level"] = 50,
+					["rewards"] = {
+						{
+							["title"] = "货币奖励",
+							["quantity"] = 125,
+							["icon"] = 2032597,
+							["currencyID"] = 1595,
+						}, -- [1]
+					},
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["iLevel"] = 800,
+				},
+				[1938] = {
+					["durationSeconds"] = 28800,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 40,
+					["iLevel"] = 800,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["rewards"] = {
+						{
+							["icon"] = 2032593,
+							["quantity"] = 200,
+							["title"] = "货币奖励",
+							["currencyID"] = 1600,
+						}, -- [1]
+					},
+				},
+				[154] = {
+					["durationSeconds"] = 1800,
+					["type"] = "战斗",
+					["cost"] = 10,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 500,
+							["tooltip"] = "+500经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+500经验值",
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 34,
+				},
+				[2178] = {
+					["durationSeconds"] = 14400,
+					["type"] = "9.0 Encounter - Ardenweald",
+					["cost"] = 10,
+					["level"] = 60,
+					["rewards"] = {
+						{
+							["title"] = "金钱奖励",
+							["quantity"] = 2640200,
+							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+							["currencyID"] = 0,
+						}, -- [1]
+					},
+					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
+					["iLevel"] = 800,
+				},
+				[1923] = {
+					["durationSeconds"] = 14400,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 40,
+					["level"] = 50,
+					["rewards"] = {
+						{
+							["title"] = "货币奖励",
+							["quantity"] = 100,
+							["icon"] = 2032593,
+							["currencyID"] = 1600,
+						}, -- [1]
+					},
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["iLevel"] = 800,
+				},
+				[1336] = {
+					["durationSeconds"] = 40320,
+					["type"] = "7.0 职业大厅 - 一般任务",
+					["cost"] = 100,
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 1400,
+							["tooltip"] = "+1,400经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+1,400经验值",
+						}, -- [1]
+					},
+					["level"] = 41,
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
+					["iLevel"] = 760,
+				},
+				[2180] = {
+					["durationSeconds"] = 39600,
+					["type"] = "9.0 Encounter - Bastion",
+					["cost"] = 50,
+					["level"] = 60,
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 184636,
+							["itemLink"] = "|cffffffff|Hitem:184636::::::::60:66::31:::::::|h[冒险者的剥皮箱]|h|r",
+						}, -- [1]
+					},
+					["typeAtlas"] = "ClassHall-QuestIcon-Desaturated",
+					["iLevel"] = 800,
+				},
+				[2085] = {
+					["durationSeconds"] = 43200,
+					["type"] = "8.0 - Quick Strike",
+					["cost"] = 40,
+					["level"] = 50,
+					["rewards"] = {
+						{
+							["title"] = "货币奖励",
+							["quantity"] = 375,
+							["icon"] = 2032599,
+							["currencyID"] = 1596,
+						}, -- [1]
+					},
+					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
+					["iLevel"] = 800,
+				},
+				[2181] = {
+					["durationSeconds"] = 39600,
+					["type"] = "9.0 Encounter - Ardenweald",
+					["cost"] = 50,
+					["level"] = 60,
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 184635,
+							["itemLink"] = "|cffffffff|Hitem:184635::::::::60:66::31:::::::|h[冒险者的采矿箱]|h|r",
+						}, -- [1]
+					},
+					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
+					["iLevel"] = 800,
+				},
+				[1178] = {
+					["durationSeconds"] = 11520,
+					["type"] = "7.0 职业大厅 - 一般任务",
+					["cost"] = 150,
+					["rewards"] = {
+						{
+							["title"] = "货币奖励",
+							["quantity"] = 5,
+							["icon"] = 236521,
+							["currencyID"] = 1533,
+						}, -- [1]
+					},
+					["level"] = 37,
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
+					["iLevel"] = 760,
+				},
+				[2245] = {
+					["durationSeconds"] = 14400,
+					["type"] = "9.0 Encounter - Revendreth",
+					["cost"] = 25,
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 181189,
+							["itemLink"] = "|cffffffff|Hitem:181189::::::::60:255::25:3:1472:5904:6646::::::|h[]|h|r",
+						}, -- [1]
+						{
+							["title"] = "货币奖励",
+							["quantity"] = 1,
+							["icon"] = 255347,
+							["currencyID"] = 1889,
+						}, -- [2]
+					},
+					["level"] = 60,
+					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
+					["iLevel"] = 800,
+				},
+				[3] = {
+					["durationSeconds"] = 1800,
+					["type"] = "战斗",
+					["cost"] = 5,
+					["iLevel"] = 0,
+					["level"] = 30,
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["rewards"] = {
+						{
+							["itemID"] = 114053,
+							["quantity"] = 1,
+						}, -- [1]
+					},
+				},
+				[2309] = {
+					["durationSeconds"] = 16200,
+					["type"] = "9.0 战斗 - 噬渊突袭",
+					["cost"] = 25,
+					["iLevel"] = 800,
+					["level"] = 60,
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 187577,
+							["itemLink"] = "|cff0070dd|Hitem:187577::::::::60:269::31:::::::|h[刻希亚肉箱]|h|r",
+						}, -- [1]
+						{
+							["icon"] = 4067362,
+							["quantity"] = 18,
+							["title"] = "货币奖励",
+							["currencyID"] = 1906,
+						}, -- [2]
+					},
+				},
+				[2087] = {
+					["durationSeconds"] = 28800,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 40,
+					["rewards"] = {
+						{
+							["quantity"] = 14,
+							["itemID"] = 163036,
+							["itemLink"] = "|cffffffff|Hitem:163036::::::::60:104:::::::::|h[抛光的宠物符咒]|h|r",
+						}, -- [1]
+					},
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["iLevel"] = 800,
+				},
+				[202] = {
+					["durationSeconds"] = 6750,
+					["type"] = "战斗",
+					["cost"] = 20,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["itemID"] = 114097,
+							["quantity"] = 1,
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 37,
+				},
+				[1926] = {
+					["durationSeconds"] = 14400,
+					["type"] = "8.0 - Stealth",
+					["cost"] = 20,
+					["iLevel"] = 800,
+					["rewards"] = {
+						{
+							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+							["quantity"] = 2498700,
+							["title"] = "金钱奖励",
+							["currencyID"] = 0,
+						}, -- [1]
+					},
+					["typeAtlas"] = "BfAMission-Icon-Stealth",
+					["level"] = 50,
+				},
+				[1942] = {
+					["durationSeconds"] = 28800,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 240,
+					["rewards"] = {
+						{
+							["title"] = "货币奖励",
+							["quantity"] = 250,
+							["icon"] = 2032593,
+							["currencyID"] = 1600,
+						}, -- [1]
+					},
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["iLevel"] = 800,
+				},
+				[2313] = {
+					["durationSeconds"] = 16200,
+					["type"] = "9.0 战斗 - 噬渊突袭",
+					["cost"] = 25,
+					["level"] = 60,
+					["rewards"] = {
+						{
+							["title"] = "货币奖励",
+							["quantity"] = 32,
+							["icon"] = 4067362,
+							["currencyID"] = 1906,
+						}, -- [1]
+						{
+							["quantity"] = 7,
+							["itemID"] = 181468,
+							["itemLink"] = "|cff0070dd|Hitem:181468::::::::60:66:::::::::|h[帷幕强化符文]|h|r",
+						}, -- [2]
+					},
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
+					["iLevel"] = 800,
+				},
+				[1879] = {
+					["durationSeconds"] = 43200,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 40,
+					["level"] = 50,
+					["rewards"] = {
+						{
+							["title"] = "货币奖励",
+							["quantity"] = 100,
+							["icon"] = 2032593,
+							["currencyID"] = 1600,
+						}, -- [1]
+					},
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["iLevel"] = 800,
+				},
+				[1943] = {
+					["durationSeconds"] = 144000,
+					["type"] = "8.0 - Long Campaign",
+					["cost"] = 40,
+					["iLevel"] = 800,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-LongCampaign",
+					["rewards"] = {
+						{
+							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+							["quantity"] = 2328500,
+							["title"] = "金钱奖励",
+							["currencyID"] = 0,
+						}, -- [1]
+					},
+				},
+				[232] = {
+					["durationSeconds"] = 3600,
+					["type"] = "巡逻",
+					["cost"] = 10,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 1050,
+							["tooltip"] = "+1,050经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+1,050经验值",
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
+					["level"] = 36,
+				},
+				[1928] = {
+					["durationSeconds"] = 14400,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 40,
+					["rewards"] = {
+						{
+							["title"] = "货币奖励",
+							["quantity"] = 125,
+							["icon"] = 2032599,
+							["currencyID"] = 1596,
+						}, -- [1]
+					},
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["iLevel"] = 800,
+				},
+				[2128] = {
+					["durationSeconds"] = 129600,
+					["type"] = "8.2 - Holiday Mission",
+					["cost"] = 100,
+					["iLevel"] = 800,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-HUB",
+					["rewards"] = {
+						{
+							["icon"] = 463446,
+							["quantity"] = 50,
+							["title"] = "货币奖励",
+							["currencyID"] = 1166,
+						}, -- [1]
+					},
+				},
+				[1930] = {
+					["durationSeconds"] = 14400,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 20,
+					["iLevel"] = 800,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["rewards"] = {
+						{
+							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+							["quantity"] = 1405600,
+							["title"] = "金钱奖励",
+							["currencyID"] = 0,
+						}, -- [1]
+					},
+				},
+				[151] = {
+					["durationSeconds"] = 1800,
+					["type"] = "战斗",
+					["cost"] = 10,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 400,
+							["tooltip"] = "+400经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+400经验值",
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 33,
+				},
+				[155] = {
+					["durationSeconds"] = 3600,
+					["type"] = "战斗",
+					["cost"] = 10,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 500,
+							["tooltip"] = "+500经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+500经验值",
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 34,
+				},
+				[163] = {
+					["durationSeconds"] = 2700,
+					["type"] = "战斗",
+					["cost"] = 10,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 800,
+							["tooltip"] = "+800经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+800经验值",
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 37,
+				},
+				[1931] = {
+					["durationSeconds"] = 14400,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 40,
+					["iLevel"] = 800,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["rewards"] = {
+						{
+							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+							["quantity"] = 1192700,
+							["title"] = "金钱奖励",
+							["currencyID"] = 0,
+						}, -- [1]
+					},
+				},
+				[87] = {
+					["durationSeconds"] = 1800,
+					["type"] = "巡逻",
+					["cost"] = 5,
+					["iLevel"] = 0,
+					["level"] = 30,
+					["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 150,
+							["tooltip"] = "+150经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+150经验值",
+						}, -- [1]
+					},
+				},
+				[2228] = {
+					["durationSeconds"] = 14400,
+					["type"] = "9.0 Encounter - Maldraxxus",
+					["cost"] = 25,
+					["level"] = 60,
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 181634,
+							["itemLink"] = "|cffa335ee|Hitem:181634::::::::60:66::25:3:1472:5904:6646::::::|h[怀想巨剑]|h|r",
+						}, -- [1]
+						{
+							["title"] = "货币奖励",
+							["quantity"] = 1,
+							["icon"] = 255347,
+							["currencyID"] = 1889,
+						}, -- [2]
+					},
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
+					["iLevel"] = 800,
+				},
+				[1932] = {
+					["durationSeconds"] = 14400,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 20,
+					["iLevel"] = 800,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["rewards"] = {
+						{
+							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+							["quantity"] = 1084400,
+							["title"] = "金钱奖励",
+							["currencyID"] = 0,
+						}, -- [1]
+					},
+				},
+				[1948] = {
+					["durationSeconds"] = 64800,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 40,
+					["iLevel"] = 800,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["rewards"] = {
+						{
+							["icon"] = 2032592,
+							["quantity"] = 400,
+							["title"] = "货币奖励",
+							["currencyID"] = 1579,
+						}, -- [1]
+					},
+				},
+				[2261] = {
+					["durationSeconds"] = 14400,
+					["type"] = "9.0 Encounter - Bastion",
+					["cost"] = 10,
+					["iLevel"] = 800,
+					["rewards"] = {
+						{
+							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+							["quantity"] = 2620600,
+							["title"] = "金钱奖励",
+							["currencyID"] = 0,
+						}, -- [1]
+					},
+					["typeAtlas"] = "ClassHall-QuestIcon-Desaturated",
+					["level"] = 60,
+				},
+				[372] = {
+					["durationSeconds"] = 36000,
+					["type"] = "战斗",
+					["cost"] = 20,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 1000,
+							["tooltip"] = "+1,000经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+1,000经验值",
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 34,
+				},
+				[376] = {
+					["durationSeconds"] = 36000,
+					["type"] = "战斗",
+					["cost"] = 20,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 1800,
+							["tooltip"] = "+1,800经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+1,800经验值",
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 38,
+				},
+				[191] = {
+					["durationSeconds"] = 3600,
+					["type"] = "战斗",
+					["cost"] = 0,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["icon"] = 1005027,
+							["quantity"] = 42,
+							["title"] = "货币奖励",
+							["currencyID"] = 824,
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 36,
+				},
+				[2262] = {
+					["durationSeconds"] = 14400,
+					["type"] = "9.0 Encounter - Revendreth",
+					["cost"] = 10,
+					["iLevel"] = 800,
+					["rewards"] = {
+						{
+							["quantity"] = 8,
+							["itemID"] = 184151,
+							["itemLink"] = "|cff1eff00|Hitem:184151::::::::60:257:::::::::|h[伪造的红宝石胸针]|h|r",
+						}, -- [1]
+					},
+					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
+					["level"] = 60,
+				},
+				[2168] = {
+					["durationSeconds"] = 14400,
+					["type"] = "9.0 Encounter - Maldraxxus",
+					["cost"] = 10,
+					["iLevel"] = 800,
+					["rewards"] = {
+						{
+							["quantity"] = 8,
+							["itemID"] = 184306,
+							["itemLink"] = "|cff1eff00|Hitem:184306::::::::60:257:::::::::|h[捕魂淤泥]|h|r",
+						}, -- [1]
+					},
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
+					["level"] = 60,
+				},
+				[2177] = {
+					["durationSeconds"] = 16200,
+					["type"] = "9.0 Encounter - Revendreth",
+					["cost"] = 10,
+					["level"] = 60,
+					["rewards"] = {
+						{
+							["quantity"] = 7,
+							["itemID"] = 184148,
+							["itemLink"] = "|cff1eff00|Hitem:184148::::::::60:66:::::::::|h[密封的罪钒之瓶]|h|r",
+						}, -- [1]
+					},
+					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
+					["iLevel"] = 800,
+				},
+				[1060] = {
+					["durationSeconds"] = 17280,
+					["type"] = "7.0 职业大厅 - 宝藏任务",
+					["cost"] = 600,
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 147348,
+							["itemLink"] = "|cff1eff00|Hitem:147348::::::::60:104:::::::::|h[重型护甲套装]|h|r",
+						}, -- [1]
+					},
+					["level"] = 44,
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
+					["iLevel"] = 760,
+				},
+				[2130] = {
+					["durationSeconds"] = 259200,
+					["type"] = "8.2 - Holiday Mission",
+					["cost"] = 100,
+					["iLevel"] = 800,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-HUB",
+					["rewards"] = {
+						{
+							["icon"] = 463446,
+							["quantity"] = 50,
+							["title"] = "货币奖励",
+							["currencyID"] = 1166,
+						}, -- [1]
+					},
+				},
+				[2295] = {
+					["durationSeconds"] = 30,
+					["type"] = "9.0 Encounter - Maldraxxus",
+					["cost"] = 1,
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 184360,
+							["itemLink"] = "|cff1eff00|Hitem:184360::::::::60:104:::::::::|h[往复沉思]|h|r",
+						}, -- [1]
+					},
+					["level"] = 60,
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
+					["iLevel"] = 800,
+				},
+				[244] = {
+					["durationSeconds"] = 3600,
+					["type"] = "巡逻",
+					["cost"] = 10,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 1350,
+							["tooltip"] = "+1,350经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+1,350经验值",
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
+					["level"] = 38,
+				},
+				[150] = {
+					["durationSeconds"] = 3600,
+					["type"] = "战斗",
+					["cost"] = 10,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 400,
+							["tooltip"] = "+400经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+400经验值",
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 33,
+				},
+				[2086] = {
+					["durationSeconds"] = 28800,
+					["type"] = "8.0 - Stealth",
+					["cost"] = 80,
+					["level"] = 50,
+					["rewards"] = {
+						{
+							["title"] = "货币奖励",
+							["quantity"] = 325,
+							["icon"] = 2032599,
+							["currencyID"] = 1596,
+						}, -- [1]
+					},
+					["typeAtlas"] = "BfAMission-Icon-Stealth",
+					["iLevel"] = 800,
+				},
 				[2169] = {
 					["durationSeconds"] = 16200,
 					["type"] = "9.0 Encounter - Ardenweald",
@@ -655,183 +1424,79 @@ DataStore_GarrisonsDB = {
 					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
 					["level"] = 60,
 				},
-				[1955] = {
-					["durationSeconds"] = 288000,
-					["type"] = "8.0 - Long Campaign",
-					["cost"] = 40,
-					["level"] = 50,
-					["rewards"] = {
-						{
-							["title"] = "金钱奖励",
-							["quantity"] = 2475300,
-							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
-							["currencyID"] = 0,
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-LongCampaign",
-					["iLevel"] = 800,
-				},
-				[3] = {
-					["durationSeconds"] = 1800,
-					["type"] = "战斗",
-					["cost"] = 5,
-					["level"] = 30,
-					["rewards"] = {
-						{
-							["itemID"] = 114053,
-							["quantity"] = 1,
-						}, -- [1]
-					},
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[2130] = {
-					["durationSeconds"] = 259200,
-					["type"] = "8.2 - Holiday Mission",
-					["cost"] = 100,
-					["level"] = 50,
-					["rewards"] = {
-						{
-							["title"] = "货币奖励",
-							["quantity"] = 50,
-							["icon"] = 463446,
-							["currencyID"] = 1166,
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-HUB",
-					["iLevel"] = 800,
-				},
-				[150] = {
-					["durationSeconds"] = 3600,
-					["type"] = "战斗",
-					["cost"] = 10,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 400,
-							["tooltip"] = "+400经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+400经验值",
-						}, -- [1]
-					},
-					["level"] = 33,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[151] = {
-					["durationSeconds"] = 1800,
-					["type"] = "战斗",
-					["cost"] = 10,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 400,
-							["tooltip"] = "+400经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+400经验值",
-						}, -- [1]
-					},
-					["level"] = 33,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[1920] = {
-					["durationSeconds"] = 28800,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 20,
-					["rewards"] = {
-						{
-							["title"] = "金钱奖励",
-							["quantity"] = 1215900,
-							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
-							["currencyID"] = 0,
-						}, -- [1]
-					},
-					["level"] = 50,
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["iLevel"] = 800,
-				},
-				[2178] = {
+				[2211] = {
 					["durationSeconds"] = 14400,
 					["type"] = "9.0 Encounter - Ardenweald",
-					["cost"] = 10,
+					["cost"] = 25,
+					["iLevel"] = 800,
 					["rewards"] = {
 						{
-							["title"] = "金钱奖励",
-							["quantity"] = 2614900,
-							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
-							["currencyID"] = 0,
+							["quantity"] = 1,
+							["itemID"] = 181426,
+							["itemLink"] = "|cffa335ee|Hitem:181426::::::::60:257::25:3:1472:5904:6646::::::|h[法夜苔藓腕带]|h|r",
 						}, -- [1]
+						{
+							["icon"] = 255347,
+							["quantity"] = 1,
+							["title"] = "货币奖励",
+							["currencyID"] = 1889,
+						}, -- [2]
 					},
-					["level"] = 60,
 					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
-					["iLevel"] = 800,
+					["level"] = 60,
 				},
-				[1928] = {
+				[1950] = {
+					["durationSeconds"] = 43200,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 200,
+					["iLevel"] = 800,
+					["rewards"] = {
+						{
+							["quantity"] = 2,
+							["itemID"] = 160053,
+							["itemLink"] = "|cffffffff|Hitem:160053::::::::60:581:::::::::|h[]|h|r",
+						}, -- [1]
+					},
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["level"] = 50,
+				},
+				[374] = {
+					["durationSeconds"] = 36000,
+					["type"] = "战斗",
+					["cost"] = 20,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 1400,
+							["tooltip"] = "+1,400经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+1,400经验值",
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 36,
+				},
+				[2312] = {
 					["durationSeconds"] = 14400,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 40,
+					["type"] = "9.0 战斗 - 噬渊突袭",
+					["cost"] = 25,
 					["iLevel"] = 800,
-					["level"] = 50,
-					["typeAtlas"] = "BfAMission-Icon-Normal",
 					["rewards"] = {
 						{
-							["icon"] = 2032599,
-							["quantity"] = 125,
+							["quantity"] = 1,
+							["itemID"] = 187575,
+							["itemLink"] = "|cff0070dd|Hitem:187575::::::::60:257::31:::::::|h[刻希亚钓鱼箱]|h|r",
+						}, -- [1]
+						{
+							["icon"] = 4067362,
+							["quantity"] = 26,
 							["title"] = "货币奖励",
-							["currencyID"] = 1596,
-						}, -- [1]
+							["currencyID"] = 1906,
+						}, -- [2]
 					},
-				},
-				[154] = {
-					["durationSeconds"] = 1800,
-					["type"] = "战斗",
-					["cost"] = 10,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 500,
-							["tooltip"] = "+500经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+500经验值",
-						}, -- [1]
-					},
-					["level"] = 34,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[155] = {
-					["durationSeconds"] = 3600,
-					["type"] = "战斗",
-					["cost"] = 10,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 500,
-							["tooltip"] = "+500经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+500经验值",
-						}, -- [1]
-					},
-					["level"] = 34,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[1948] = {
-					["durationSeconds"] = 64800,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 40,
-					["level"] = 50,
-					["rewards"] = {
-						{
-							["title"] = "货币奖励",
-							["quantity"] = 400,
-							["icon"] = 2032592,
-							["currencyID"] = 1579,
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["iLevel"] = 800,
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
+					["level"] = 60,
 				},
 				[2171] = {
 					["durationSeconds"] = 36000,
@@ -850,504 +1515,29 @@ DataStore_GarrisonsDB = {
 					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
 					["level"] = 60,
 				},
-				[371] = {
-					["durationSeconds"] = 36000,
-					["type"] = "战斗",
-					["cost"] = 20,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 800,
-							["tooltip"] = "+800经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+800经验值",
-						}, -- [1]
-					},
-					["level"] = 33,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[232] = {
-					["durationSeconds"] = 3600,
-					["type"] = "巡逻",
-					["cost"] = 10,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 1050,
-							["tooltip"] = "+1,050经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+1,050经验值",
-						}, -- [1]
-					},
-					["level"] = 36,
-					["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
-					["iLevel"] = 0,
-				},
-				[373] = {
-					["durationSeconds"] = 36000,
-					["type"] = "战斗",
-					["cost"] = 20,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 1200,
-							["tooltip"] = "+1,200经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+1,200经验值",
-						}, -- [1]
-					},
-					["level"] = 35,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[374] = {
-					["durationSeconds"] = 36000,
-					["type"] = "战斗",
-					["cost"] = 20,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 1400,
-							["tooltip"] = "+1,400经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+1,400经验值",
-						}, -- [1]
-					},
-					["level"] = 36,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[2211] = {
-					["durationSeconds"] = 14400,
-					["type"] = "9.0 Encounter - Ardenweald",
-					["cost"] = 25,
-					["level"] = 60,
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 175713,
-							["itemLink"] = "|cffa335ee|Hitem:175713::::::::60:269::25:3:1472:5904:6646::::::|h[枝蓟指环]|h|r",
-						}, -- [1]
-						{
-							["title"] = "货币奖励",
-							["quantity"] = 1,
-							["icon"] = 255347,
-							["currencyID"] = 1889,
-						}, -- [2]
-					},
-					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
-					["iLevel"] = 800,
-				},
-				[178] = {
-					["durationSeconds"] = 2700,
-					["type"] = "战斗",
-					["cost"] = 10,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 600,
-							["tooltip"] = "+600经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+600经验值",
-						}, -- [1]
-					},
-					["level"] = 35,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[159] = {
-					["durationSeconds"] = 5400,
-					["type"] = "战斗",
-					["cost"] = 10,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 700,
-							["tooltip"] = "+700经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+700经验值",
-						}, -- [1]
-					},
-					["level"] = 36,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[191] = {
-					["durationSeconds"] = 3600,
-					["type"] = "战斗",
-					["cost"] = 0,
-					["rewards"] = {
-						{
-							["title"] = "货币奖励",
-							["quantity"] = 42,
-							["icon"] = 1005027,
-							["currencyID"] = 824,
-						}, -- [1]
-					},
-					["level"] = 36,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[2180] = {
-					["durationSeconds"] = 39600,
-					["type"] = "9.0 Encounter - Bastion",
-					["cost"] = 50,
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 184630,
-							["itemLink"] = "|cffffffff|Hitem:184630::::::::60:257::31:::::::|h[冒险者的裁缝箱]|h|r",
-						}, -- [1]
-					},
-					["level"] = 60,
-					["typeAtlas"] = "ClassHall-QuestIcon-Desaturated",
-					["iLevel"] = 800,
-				},
 				[1173] = {
 					["durationSeconds"] = 23040,
 					["type"] = "7.0 职业大厅 - 一般任务",
 					["cost"] = 300,
-					["iLevel"] = 760,
+					["rewards"] = {
+						{
+							["title"] = "货币奖励",
+							["quantity"] = 5,
+							["icon"] = 236521,
+							["currencyID"] = 1533,
+						}, -- [1]
+					},
 					["level"] = 38,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
-					["rewards"] = {
-						{
-							["icon"] = 236521,
-							["quantity"] = 5,
-							["title"] = "货币奖励",
-							["currencyID"] = 1533,
-						}, -- [1]
-					},
-				},
-				[224] = {
-					["durationSeconds"] = 2700,
-					["type"] = "巡逻",
-					["cost"] = 10,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 600,
-							["tooltip"] = "+600经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+600经验值",
-						}, -- [1]
-					},
-					["level"] = 33,
-					["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
-					["iLevel"] = 0,
-				},
-				[172] = {
-					["durationSeconds"] = 1800,
-					["type"] = "战斗",
-					["cost"] = 10,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 100,
-							["tooltip"] = "+100经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+100经验值",
-						}, -- [1]
-					},
-					["level"] = 30,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[162] = {
-					["durationSeconds"] = 5400,
-					["type"] = "战斗",
-					["cost"] = 10,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 800,
-							["tooltip"] = "+800经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+800经验值",
-						}, -- [1]
-					},
-					["level"] = 37,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[180] = {
-					["durationSeconds"] = 3600,
-					["type"] = "战斗",
-					["cost"] = 10,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 800,
-							["tooltip"] = "+800经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+800经验值",
-						}, -- [1]
-					},
-					["level"] = 37,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[2228] = {
-					["durationSeconds"] = 14400,
-					["type"] = "9.0 Encounter - Maldraxxus",
-					["cost"] = 25,
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 181657,
-							["itemLink"] = "|cffa335ee|Hitem:181657::::::::60:257::25:3:1472:5904:6646::::::|h[血绸便鞋]|h|r",
-						}, -- [1]
-						{
-							["title"] = "货币奖励",
-							["quantity"] = 1,
-							["icon"] = 255347,
-							["currencyID"] = 1889,
-						}, -- [2]
-					},
-					["level"] = 60,
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["iLevel"] = 800,
-				},
-				[1921] = {
-					["durationSeconds"] = 14400,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 40,
-					["level"] = 50,
-					["rewards"] = {
-						{
-							["title"] = "金钱奖励",
-							["quantity"] = 1320200,
-							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
-							["currencyID"] = 0,
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["iLevel"] = 800,
-				},
-				[2177] = {
-					["durationSeconds"] = 16200,
-					["type"] = "9.0 Encounter - Revendreth",
-					["cost"] = 10,
-					["iLevel"] = 800,
-					["rewards"] = {
-						{
-							["quantity"] = 7,
-							["itemID"] = 184148,
-							["itemLink"] = "|cffffffff|Hitem:184148::::::::60:255:::::::::|h[]|h|r",
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
-					["level"] = 60,
-				},
-				[2295] = {
-					["durationSeconds"] = 30,
-					["type"] = "9.0 Encounter - Maldraxxus",
-					["cost"] = 1,
-					["iLevel"] = 800,
-					["level"] = 60,
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 184360,
-							["itemLink"] = "|cff1eff00|Hitem:184360::::::::60:104:::::::::|h[往复沉思]|h|r",
-						}, -- [1]
-					},
-				},
-				[2170] = {
-					["durationSeconds"] = 46800,
-					["type"] = "9.0 Encounter - Ardenweald",
-					["cost"] = 50,
-					["level"] = 60,
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 184636,
-							["itemLink"] = "|cffffffff|Hitem:184636::::::::60:253::31:::::::|h[冒险者的剥皮箱]|h|r",
-						}, -- [1]
-					},
-					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
-					["iLevel"] = 800,
-				},
-				[2087] = {
-					["durationSeconds"] = 28800,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 40,
-					["iLevel"] = 800,
-					["level"] = 50,
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["rewards"] = {
-						{
-							["quantity"] = 14,
-							["itemID"] = 163036,
-							["itemLink"] = "|cffffffff|Hitem:163036::::::::60:104:::::::::|h[抛光的宠物符咒]|h|r",
-						}, -- [1]
-					},
-				},
-				[1942] = {
-					["durationSeconds"] = 28800,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 240,
-					["iLevel"] = 800,
-					["level"] = 50,
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["rewards"] = {
-						{
-							["icon"] = 2032593,
-							["quantity"] = 250,
-							["title"] = "货币奖励",
-							["currencyID"] = 1600,
-						}, -- [1]
-					},
-				},
-				[1932] = {
-					["durationSeconds"] = 14400,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 20,
-					["level"] = 50,
-					["rewards"] = {
-						{
-							["title"] = "金钱奖励",
-							["quantity"] = 1084400,
-							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
-							["currencyID"] = 0,
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["iLevel"] = 800,
-				},
-				[1922] = {
-					["durationSeconds"] = 14400,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 40,
-					["level"] = 50,
-					["rewards"] = {
-						{
-							["title"] = "货币奖励",
-							["quantity"] = 75,
-							["icon"] = 2032597,
-							["currencyID"] = 1595,
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["iLevel"] = 800,
-				},
-				[1926] = {
-					["durationSeconds"] = 14400,
-					["type"] = "8.0 - Stealth",
-					["cost"] = 20,
-					["rewards"] = {
-						{
-							["title"] = "金钱奖励",
-							["quantity"] = 2498700,
-							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
-							["currencyID"] = 0,
-						}, -- [1]
-					},
-					["level"] = 50,
-					["typeAtlas"] = "BfAMission-Icon-Stealth",
-					["iLevel"] = 800,
-				},
-				[1930] = {
-					["durationSeconds"] = 14400,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 20,
-					["level"] = 50,
-					["rewards"] = {
-						{
-							["title"] = "金钱奖励",
-							["quantity"] = 1405600,
-							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
-							["currencyID"] = 0,
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["iLevel"] = 800,
-				},
-				[1178] = {
-					["durationSeconds"] = 11520,
-					["type"] = "7.0 职业大厅 - 一般任务",
-					["cost"] = 150,
 					["iLevel"] = 760,
-					["level"] = 37,
-					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
-					["rewards"] = {
-						{
-							["icon"] = 236521,
-							["quantity"] = 5,
-							["title"] = "货币奖励",
-							["currencyID"] = 1533,
-						}, -- [1]
-					},
-				},
-				[1938] = {
-					["durationSeconds"] = 28800,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 40,
-					["level"] = 50,
-					["rewards"] = {
-						{
-							["title"] = "货币奖励",
-							["quantity"] = 200,
-							["icon"] = 2032593,
-							["currencyID"] = 1600,
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["iLevel"] = 800,
-				},
-				[1879] = {
-					["durationSeconds"] = 86400,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 40,
-					["level"] = 50,
-					["rewards"] = {
-						{
-							["title"] = "货币奖励",
-							["quantity"] = 125,
-							["icon"] = 2032593,
-							["currencyID"] = 1600,
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["iLevel"] = 800,
-				},
-				[2176] = {
-					["durationSeconds"] = 27000,
-					["type"] = "9.0 Encounter - Ardenweald",
-					["cost"] = 30,
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 190641,
-							["itemLink"] = "|cffa335ee|Hitem:190641::::::::60:266::25:3:1472:5904:6646::::::|h[导师的圣钟]|h|r",
-						}, -- [1]
-					},
-					["level"] = 60,
-					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
-					["iLevel"] = 800,
-				},
-				[1950] = {
-					["durationSeconds"] = 43200,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 200,
-					["rewards"] = {
-						{
-							["quantity"] = 2,
-							["itemID"] = 160053,
-							["itemLink"] = "|cffffffff|Hitem:160053::::::::60:581:::::::::|h[]|h|r",
-						}, -- [1]
-					},
-					["level"] = 50,
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["iLevel"] = 800,
 				},
 				[2175] = {
 					["durationSeconds"] = 60,
 					["type"] = "9.0 Encounter - Maldraxxus",
 					["cost"] = 1,
+					["iLevel"] = 800,
 					["level"] = 60,
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -1355,252 +1545,77 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cff1eff00|Hitem:184360::::::::60:250:::::::::|h[往复沉思]|h|r",
 						}, -- [1]
 					},
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["iLevel"] = 800,
 				},
-				[87] = {
-					["durationSeconds"] = 1800,
-					["type"] = "巡逻",
-					["cost"] = 5,
-					["level"] = 30,
-					["rewards"] = {
-						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 150,
-							["tooltip"] = "+150经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+150经验值",
-						}, -- [1]
-					},
-					["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
+				[174] = {
+					["durationSeconds"] = 3600,
+					["type"] = "战斗",
+					["cost"] = 0,
 					["iLevel"] = 0,
-				},
-				[2128] = {
-					["durationSeconds"] = 129600,
-					["type"] = "8.2 - Holiday Mission",
-					["cost"] = 100,
-					["level"] = 50,
 					["rewards"] = {
 						{
+							["icon"] = 1005027,
+							["quantity"] = 32,
 							["title"] = "货币奖励",
-							["quantity"] = 50,
-							["icon"] = 463446,
-							["currencyID"] = 1166,
+							["currencyID"] = 824,
 						}, -- [1]
 					},
-					["typeAtlas"] = "BfAMission-Icon-HUB",
-					["iLevel"] = 800,
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 31,
 				},
-				[1336] = {
-					["durationSeconds"] = 40320,
-					["type"] = "7.0 职业大厅 - 一般任务",
-					["cost"] = 100,
-					["iLevel"] = 760,
-					["level"] = 41,
-					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
+				[186] = {
+					["durationSeconds"] = 3600,
+					["type"] = "战斗",
+					["cost"] = 0,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["icon"] = 1005027,
+							["quantity"] = 32,
+							["title"] = "货币奖励",
+							["currencyID"] = 824,
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 31,
+				},
+				[156] = {
+					["durationSeconds"] = 3600,
+					["type"] = "战斗",
+					["cost"] = 10,
+					["iLevel"] = 0,
 					["rewards"] = {
 						{
 							["title"] = "奖励追随者经验",
-							["followerXP"] = 1400,
-							["tooltip"] = "+1,400经验值",
+							["followerXP"] = 600,
+							["tooltip"] = "+600经验值",
 							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+1,400经验值",
+							["name"] = "+600经验值",
 						}, -- [1]
 					},
-				},
-				[1060] = {
-					["durationSeconds"] = 17280,
-					["type"] = "7.0 职业大厅 - 宝藏任务",
-					["cost"] = 600,
-					["iLevel"] = 760,
-					["level"] = 44,
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 147348,
-							["itemLink"] = "|cff1eff00|Hitem:147348::::::::60:104:::::::::|h[重型护甲套装]|h|r",
-						}, -- [1]
-					},
-				},
-				[2262] = {
-					["durationSeconds"] = 14400,
-					["type"] = "9.0 Encounter - Revendreth",
-					["cost"] = 10,
-					["rewards"] = {
-						{
-							["quantity"] = 8,
-							["itemID"] = 181551,
-							["itemLink"] = "|cff1eff00|Hitem:181551::::::::60:257:::::::::|h[枯竭的石裔之心]|h|r",
-						}, -- [1]
-					},
-					["level"] = 60,
-					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
-					["iLevel"] = 800,
-				},
-				[2261] = {
-					["durationSeconds"] = 14400,
-					["type"] = "9.0 Encounter - Bastion",
-					["cost"] = 10,
-					["level"] = 60,
-					["rewards"] = {
-						{
-							["title"] = "金钱奖励",
-							["quantity"] = 2660900,
-							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
-							["currencyID"] = 0,
-						}, -- [1]
-					},
-					["typeAtlas"] = "ClassHall-QuestIcon-Desaturated",
-					["iLevel"] = 800,
-				},
-				[2168] = {
-					["durationSeconds"] = 14400,
-					["type"] = "9.0 Encounter - Maldraxxus",
-					["cost"] = 10,
-					["rewards"] = {
-						{
-							["quantity"] = 8,
-							["itemID"] = 181642,
-							["itemLink"] = "|cff1eff00|Hitem:181642::::::::60:257:::::::::|h[魔药制作法则入门]|h|r",
-						}, -- [1]
-					},
-					["level"] = 60,
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["iLevel"] = 800,
-				},
-				[1923] = {
-					["durationSeconds"] = 14400,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 20,
-					["level"] = 50,
-					["rewards"] = {
-						{
-							["title"] = "货币奖励",
-							["quantity"] = 125,
-							["icon"] = 2032593,
-							["currencyID"] = 1600,
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["iLevel"] = 800,
-				},
-				[2309] = {
-					["durationSeconds"] = 16200,
-					["type"] = "9.0 战斗 - 噬渊突袭",
-					["cost"] = 25,
-					["level"] = 60,
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 187577,
-							["itemLink"] = "|cff0070dd|Hitem:187577::::::::60:269::31:::::::|h[刻希亚肉箱]|h|r",
-						}, -- [1]
-						{
-							["title"] = "货币奖励",
-							["quantity"] = 21,
-							["icon"] = 4067362,
-							["currencyID"] = 1906,
-						}, -- [2]
-					},
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["iLevel"] = 800,
-				},
-				[1931] = {
-					["durationSeconds"] = 14400,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 40,
-					["level"] = 50,
-					["rewards"] = {
-						{
-							["title"] = "金钱奖励",
-							["quantity"] = 1192700,
-							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
-							["currencyID"] = 0,
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["iLevel"] = 800,
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 35,
 				},
 				[2308] = {
 					["durationSeconds"] = 14400,
 					["type"] = "9.0 战斗 - 噬渊突袭",
 					["cost"] = 25,
+					["iLevel"] = 800,
 					["rewards"] = {
 						{
-							["title"] = "货币奖励",
-							["quantity"] = 22,
 							["icon"] = 4067362,
+							["quantity"] = 19,
+							["title"] = "货币奖励",
 							["currencyID"] = 1906,
 						}, -- [1]
 						{
-							["title"] = "金钱奖励",
-							["quantity"] = 3757700,
 							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+							["quantity"] = 3655000,
+							["title"] = "金钱奖励",
 							["currencyID"] = 0,
 						}, -- [2]
 					},
-					["level"] = 60,
 					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["iLevel"] = 800,
-				},
-				[2245] = {
-					["durationSeconds"] = 14400,
-					["type"] = "9.0 Encounter - Revendreth",
-					["cost"] = 25,
-					["iLevel"] = 800,
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 181691,
-							["itemLink"] = "|cffffffff|Hitem:181691::::::::60:255::25:3:1472:5904:6646::::::|h[]|h|r",
-						}, -- [1]
-						{
-							["icon"] = 255347,
-							["quantity"] = 1,
-							["title"] = "货币奖励",
-							["currencyID"] = 1889,
-						}, -- [2]
-					},
-					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
 					["level"] = 60,
-				},
-				[1943] = {
-					["durationSeconds"] = 144000,
-					["type"] = "8.0 - Long Campaign",
-					["cost"] = 40,
-					["level"] = 50,
-					["rewards"] = {
-						{
-							["title"] = "金钱奖励",
-							["quantity"] = 2328500,
-							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
-							["currencyID"] = 0,
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-LongCampaign",
-					["iLevel"] = 800,
-				},
-				[2312] = {
-					["durationSeconds"] = 14400,
-					["type"] = "9.0 战斗 - 噬渊突袭",
-					["cost"] = 25,
-					["iLevel"] = 800,
-					["level"] = 60,
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 187575,
-							["itemLink"] = "|cffffffff|Hitem:187575::::::::60:104::31:::::::|h[]|h|r",
-						}, -- [1]
-						{
-							["icon"] = 4067362,
-							["quantity"] = 26,
-							["title"] = "货币奖励",
-							["currencyID"] = 1906,
-						}, -- [2]
-					},
 				},
 			},
 			["FollowerNamesToID"] = {
@@ -1648,7 +1663,7 @@ DataStore_GarrisonsDB = {
 				["可敬的卡尔戈"] = 184,
 				["艾达·晨光"] = 207,
 				["乌娜·斯莱舍"] = 463,
-				["酿酒师阿麦"] = 998,
+				["希萨莉·黑鸦"] = 999,
 				["阿隆索斯·法奥"] = 875,
 				["佳莉娅·米奈希尔"] = 856,
 				["缚魂者图拉妮"] = 205,
@@ -1659,36 +1674,36 @@ DataStore_GarrisonsDB = {
 				["安古斯·铁拳"] = 605,
 				["寻晨者鲁卡里斯"] = 462,
 				["赛莱拉·钢咏"] = 604,
-				["莫克斯·剑吼"] = 155,
+				["卡格·血怒"] = 459,
 				["陈·风暴烈酒"] = 596,
-				["考尔曼"] = 177,
+				["阿里乌克"] = 474,
 				["祝踏岚"] = 603,
 				["魔导师克雷拉斯"] = 154,
-				["裂骨"] = 458,
+				["佩妮·殴底"] = 211,
 				["肉弹"] = 203,
 				["米露恩"] = 644,
 				["赛兰德拉·林歌"] = 642,
-				["暗影猎手莱拉"] = 180,
-				["大德鲁伊哈缪尔·符文图腾"] = 643,
-				["武器锻造师纳什拉"] = 179,
-				["阿莱克斯·巴罗夫"] = 195,
-				["岑塔布拉"] = 640,
-				["美猴王"] = 602,
-				["范涛"] = 467,
-				["长青的菲拉克"] = 194,
-				["帕拉斯"] = 580,
-				["穆维里克"] = 182,
-				["索尔"] = 872,
-				["艾萨莱斯特"] = 1002,
 				["利爪德鲁伊"] = 834,
+				["艾萨莱斯特"] = 1002,
+				["索尔"] = 872,
+				["阿莱克斯·巴罗夫"] = 195,
+				["帕拉斯"] = 580,
+				["长青的菲拉克"] = 194,
+				["范涛"] = 467,
+				["美猴王"] = 602,
+				["岑塔布拉"] = 640,
+				["穆维里克"] = 182,
+				["武器锻造师纳什拉"] = 179,
+				["大德鲁伊哈缪尔·符文图腾"] = 643,
+				["暗影猎手莱拉"] = 180,
 				["欧林·棕皮"] = 34,
 				["邪爆教授"] = 460,
-				["佩妮·殴底"] = 211,
-				["阿里乌克"] = 474,
-				["卡格·血怒"] = 459,
+				["裂骨"] = 458,
+				["考尔曼"] = 177,
+				["莫克斯·剑吼"] = 155,
 				["阿布加尔"] = 209,
 				["兹里阿克"] = 168,
-				["希萨莉·黑鸦"] = 999,
+				["酿酒师阿麦"] = 998,
 			},
 		},
 	},

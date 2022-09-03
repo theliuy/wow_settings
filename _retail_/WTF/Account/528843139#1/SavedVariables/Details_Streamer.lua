@@ -1,11 +1,11 @@
 
 Details_StreamerDB = {
 	["characters"] = {
-		["大悟的葡萄 - 死亡之翼"] = "白云朵朵飘 - 白银之手",
-		["Netmare - 死亡之翼"] = "白云朵朵飘 - 白银之手",
+		["西山胖墩 - 死亡之翼"] = "白云朵朵飘 - 白银之手",
+		["Asibla - 死亡之翼"] = "白云朵朵飘 - 白银之手",
 		["白云朵朵飘 - 白银之手"] = "白云朵朵飘 - 白银之手",
 		["不刷牙 - 死亡之翼"] = "白云朵朵飘 - 白银之手",
-		["雨三五 - 死亡之翼"] = "白云朵朵飘 - 白银之手",
+		["大悟的葡萄 - 死亡之翼"] = "白云朵朵飘 - 白银之手",
 		["呱卡喔卡 - 死亡之翼"] = "白云朵朵飘 - 白银之手",
 		["朵朵白云飘 - 死亡之翼"] = "白云朵朵飘 - 白银之手",
 		["Aeules - 死亡之翼"] = "白云朵朵飘 - 白银之手",
@@ -15,8 +15,8 @@ Details_StreamerDB = {
 		["葡萄窜窜 - 死亡之翼"] = "白云朵朵飘 - 白银之手",
 		["幽门螺旋球菌 - 死亡之翼"] = "白云朵朵飘 - 白银之手",
 		["狂奔的葡萄 - 死亡之翼"] = "白云朵朵飘 - 白银之手",
-		["Asibla - 死亡之翼"] = "白云朵朵飘 - 白银之手",
-		["西山胖墩 - 死亡之翼"] = "白云朵朵飘 - 白银之手",
+		["Netmare - 死亡之翼"] = "白云朵朵飘 - 白银之手",
+		["雨三五 - 死亡之翼"] = "白云朵朵飘 - 白银之手",
 	},
 	["profiles"] = {
 		["白云朵朵飘 - 白银之手"] = {
@@ -42,27 +42,12 @@ Details_StreamerDB = {
 			["arrow_anchor_x"] = 0,
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["author"] = "Details! Team",
-			["font_size"] = 10,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["use_spark"] = true,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -74,7 +59,22 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["y"] = -4.57763671875e-05,
+			["use_spark"] = true,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,

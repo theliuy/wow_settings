@@ -1,23 +1,9 @@
 
 DecursiveDB = {
-	["profileKeys"] = {
-		["大悟的葡萄 - 死亡之翼"] = "Default",
-		["紫菱三五 - 死亡之翼"] = "Default",
-		["葡萄窜窜 - 死亡之翼"] = "Default",
-		["Gligli - 死亡之翼"] = "Default",
-		["白云朵朵飘 - 白银之手"] = "Default",
-		["不刷牙 - 死亡之翼"] = "Default",
-		["雨三五 - 死亡之翼"] = "Default",
-		["呱卡喔卡 - 死亡之翼"] = "Default",
-		["Netmare - 死亡之翼"] = "Default",
-		["朵朵白云飘 - 死亡之翼"] = "Default",
-		["南山佛爬墙 - 死亡之翼"] = "Default",
-		["白不白胖不胖 - 死亡之翼"] = "Default",
-		["西山胖墩 - 死亡之翼"] = "Default",
-		["幽门螺旋球菌 - 死亡之翼"] = "Default",
-		["狂奔的葡萄 - 死亡之翼"] = "Default",
-		["Asibla - 死亡之翼"] = "Default",
-		["Aeules - 死亡之翼"] = "Default",
+	["global"] = {
+		["LastVersionAnnounce"] = 1662220844,
+		["NewerVersionAlert"] = 1622214562,
+		["TocExpiredDetection"] = 1660927959,
 	},
 	["class"] = {
 		["DEATHKNIGHT"] = {
@@ -44,7 +30,7 @@ DecursiveDB = {
 		},
 		["PALADIN"] = {
 			["CureOrder"] = {
-				3, -- [1]
+				-13, -- [1]
 				-14, -- [2]
 				nil, -- [3]
 				-15, -- [4]
@@ -75,13 +61,15 @@ DecursiveDB = {
 				[32] = -16,
 			},
 		},
-		["SHAMAN"] = {
+		["HUNTER"] = {
 			["CureOrder"] = {
-				4, -- [1]
-				3, -- [2]
-				[8] = -15,
-				[16] = -16,
-				[32] = 1,
+				-11, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
+				[32] = -16,
 			},
 		},
 		["WARLOCK"] = {
@@ -139,22 +127,34 @@ DecursiveDB = {
 				[32] = -16,
 			},
 		},
-		["HUNTER"] = {
+		["SHAMAN"] = {
 			["CureOrder"] = {
-				-11, -- [1]
-				-15, -- [2]
-				nil, -- [3]
-				-12, -- [4]
-				[8] = -13,
-				[16] = -14,
-				[32] = -16,
+				4, -- [1]
+				3, -- [2]
+				[8] = -15,
+				[16] = -16,
+				[32] = 1,
 			},
 		},
 	},
-	["global"] = {
-		["LastVersionAnnounce"] = 1660792886,
-		["NewerVersionAlert"] = 1622214562,
-		["TocExpiredDetection"] = 1660792870,
+	["profileKeys"] = {
+		["大悟的葡萄 - 死亡之翼"] = "Default",
+		["紫菱三五 - 死亡之翼"] = "Default",
+		["葡萄窜窜 - 死亡之翼"] = "Default",
+		["Gligli - 死亡之翼"] = "Default",
+		["白云朵朵飘 - 白银之手"] = "Default",
+		["不刷牙 - 死亡之翼"] = "Default",
+		["雨三五 - 死亡之翼"] = "Default",
+		["呱卡喔卡 - 死亡之翼"] = "Default",
+		["Aeules - 死亡之翼"] = "Default",
+		["Asibla - 死亡之翼"] = "Default",
+		["南山佛爬墙 - 死亡之翼"] = "Default",
+		["白不白胖不胖 - 死亡之翼"] = "Default",
+		["西山胖墩 - 死亡之翼"] = "Default",
+		["幽门螺旋球菌 - 死亡之翼"] = "Default",
+		["狂奔的葡萄 - 死亡之翼"] = "Default",
+		["Netmare - 死亡之翼"] = "Default",
+		["朵朵白云飘 - 死亡之翼"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

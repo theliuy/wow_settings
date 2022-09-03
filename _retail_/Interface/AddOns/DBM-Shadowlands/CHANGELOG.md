@@ -1,22 +1,18 @@
 # <DBM> World Bosses (Shadowlands)
 
-## [9.2.30](https://github.com/DeadlyBossMods/DBM-Retail/tree/9.2.30) (2022-08-16)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-Retail/compare/9.2.29...9.2.30) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Retail/releases)
+## [9.2.32](https://github.com/DeadlyBossMods/DBM-Retail/tree/9.2.32) (2022-08-30)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-Retail/compare/9.2.31...9.2.32) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Retail/releases)
 
-- bump tocs, prepare tag  
-- TOC bumps  
-- Fix typo  
-- Eranog Drycode  
-- Fixed a bug where blood barrier had wrong spellid/name  
-- small timer tweak  
-- Fix lua error  
-- More aggressive filtering and throttling for guild boss engage/defeat syncs in classic wow  
-- Update guardian to post hotfix affix behavior (which is actually quite a bit worse than pre hotfix, it's now possible to do entire fight without even seeing it 🤷‍♂️)  
-- Just don't do a stage 2 timer for affix on sylvanas, it's not reliable. post hotfix it's even less accurate somehow (despite blizzards attempt to make it more accurate).  
-    Fixed a bug causing first one of stage 3 not to show (I forgot to type it into table)  
-- German localization for Core  
-- German localization for GUI  
-- Fix another typo  
-- Fix typo  
-- slight timer tweak  
+- prep new retail tag  
+- Update fated affixes with weak 5 data  
+- bump alpha  
+- prep new wrath tag  
+- Update ci.yml Don't forward to BCC  
+- Add a check only for M+ for both DF and S4  
+- tweak/fix  
+- Redo scanning again to always scan multiple times instead of aborting on first scan, this will make it more robust in detecting affixes that don't appear right away. Did reduce scan times from 10 over 10 seconds to 5 over 10 seconds.  
+- Fix a bug causing out of control scheduling loop. Closes#802  
+- Fix stupid  
+- attempt to fix situation where intial timers may fail, and as a result, timers could also fail to cancel on wipe/kill as well within the affixes mod. This was done through a more aggressive repeat scan that will persist for 10 seconds into fight  
+- don't pass \"force\" arg on CALLENGE\_MODE\_RESET for autologging  
 - bump alpha  
